@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    border-radius: 16px;
+    margin: 0%;
+
+}
+
+header {
+    width: 1200px;
+    height: 96px;
+    margin: auto;
+    /* position: absolute; */
+    left: 5vw;
+    top: 20px;
+    background-color: #2A2C2E;
+
+}
+
+nav {
+    width: 100vw;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    padding: 13px 18px;
+}
+
+nav ul {
+
+    margin-left: 5%;
+}
+
+
+
+nav li {
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #ffffff;
+}
+
+body {
+    display: flex;
+    margin-top: 1%;
+    flex-direction: column;
+    gap: 2vh;
+    ;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: center;
+}
+
+footer {
+    width: 1248px;
+    height: 128px;
+    border-radius: 0%;
+    background-color: #2A2C2E;
+
+}
+
+.hero-text {
+    margin: auto;
+    border: 2px solid black;
+    width: 1200px;
+    height: 433px;
+
+}
+
+.book-grid {
+    width: 1248px;
+    height: 882px;
+    background-color: #2A2C2E;
+    border-radius: 0%;
+    flex-shrink: 0;
+}
+
+.front-banner {
+    width: 1200px;
+    height: 224px;
+    background-color: #2A2C2E;
+}
+
+.author-grid {
+    width: 1248px;
+    height: 523px;
+    background-color: #2A2C2E;
+    border-radius: 0%;
+
+}
+
+.bottom-section {
+    margin: auto;
+    border: 2px solid black;
+    width: 1200px;
+    height: 192px;
+
+}
+
+.header-button {
+    margin-left: 4%;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+}
+
+.icon-button {
+
+    background-color: transparent;
+    border: none;
+}
+
+.txt-button {
+    padding: 16px 28px;
+    background-color: #F4CE47;
+}
