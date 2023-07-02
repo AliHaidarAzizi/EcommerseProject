@@ -1,0 +1,62 @@
+button:hover {
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+
+.txt-button-solid {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.024px;
+    padding: 16px 28px;
+    background-color: #F4CE47;
+    margin-left: 30px;
+}
+
+.txt-button-solid:hover {
+    font-size: 16px;
+    color: #F4CE47;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.024px;
+    padding: 16px 28px;
+    background-color: #F4CE47;
+    margin-left: 30px;
+    border: 1.5px solid var(--yellow-500, #F4CE47);
+    background-color: transparent;
+}
+
+.txt-button-trans {
+    font-size: 16px;
+    color: #F4CE47;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.024px;
+    padding: 16px 28px;
+    border: 1.5px solid var(--yellow-500, #F4CE47);
+    background-color: transparent;
+    margin-left: 0px;
+}
+
+.txt-button-trans:hover {
+    font-size: 16px;
+    color: black;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.024px;
+    padding: 16px 28px;
+    background-color: #F4CE47;
+    margin-left: 0px;
+}
+
+.icon-button {
+
+    background-color: transparent;
+    border: none;
+}
