@@ -30,6 +30,45 @@ h2 {
     color: #FFF;
 }
 
+
+h5 {
+    font-family: 'ClashGrotesk-Variable', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.021px;
+}
+
+h6 {
+    font-family: 'ClashGrotesk-Variable', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.03px;
+}
+
+p {
+    font-family: 'ClashGrotesk-Variable', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.021px;
+}
+
+.discount {
+    padding: 0px 2px;
+    color: var(--black-disabled, rgba(0, 0, 0, 0.38));
+    font-family: 'ClashGrotesk-Variable', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.03px;
+    text-decoration-line:line-through;
+}
 header {
     display: flex;
     width: 1200px;
@@ -269,13 +308,13 @@ footer {
     border-radius: 20px;
     background: var(--white-high-emphasis, #FFF);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     /* align-items: start; */
     /* justify-content: center; */
 }
 
 .book {
-    width: 100%;
+    width: max-content;
     height: 100%;
     object-fit: scale-down;
 }
@@ -358,4 +397,48 @@ footer {
 
 .yellow-bg {
     background-color: #F4CE47;
+}
+
+.comment-box {
+    margin: 4px 0px;
+    height: 34px;
+    width: 52px;
+    border-radius: 31px ;
+    border: 1px solid black;
+
+}
+.rating-box {
+    margin: 4px 0px;
+    height: 32px;
+    width: 92px;
+    border-radius: 31px ;
+    border: 1px solid black;
+
+}
+
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    padding: 0px 15px;
+
+}
+
+.content-wrapper p {
+    margin: 1px 0px;
+}
+
+.icon-wrapper {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pricing-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 5px;
 }
