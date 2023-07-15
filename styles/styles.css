@@ -10,6 +10,13 @@
 
 }
 
+.centre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 h1 {
     font-size: 75px;
     font-family: 'ClashGrotesk-Variable', sans-serif;
@@ -302,6 +309,7 @@ footer {
 
 .book-grid-block {
     
+    position: relative;
     width: 395px;
     height: 200px;
     padding: 16px;
@@ -400,19 +408,32 @@ footer {
 }
 
 .comment-box {
+    /* padding: 5px; */
+    gap: 3px;
+    display: flex;
+    flex-direction: row;
     margin: 4px 0px;
     height: 34px;
     width: 52px;
     border-radius: 31px ;
     border: 1px solid black;
+    justify-content: center;
+    align-items: center;
 
 }
+
 .rating-box {
+    /* padding: 5px; */
+    gap: 3px;
+    display: flex;
+    flex-direction: row;
     margin: 4px 0px;
     height: 32px;
     width: 92px;
     border-radius: 31px ;
     border: 1px solid black;
+    justify-content: center;
+    align-items: center;
 
 }
 

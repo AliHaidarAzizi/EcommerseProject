@@ -60,3 +60,23 @@ button:hover {
     background-color: transparent;
     border: none;
 }
+
+.icon-button-black {
+    display: flex;
+    padding: 4px;
+    align-items: flex-start;
+    gap: 8px;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    border-radius: 36px;
+    background: var(--black-bg, #2A2C2E);
+}
+
+.icon-button-black button {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
